@@ -1,0 +1,47 @@
+{
+  "1": {
+    "2": {
+      "Time": 10,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 5
+    },
+    "4": {
+      "Time": 30,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 5
+    },
+    "5": {
+      "Time": 100,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 10
+    }
+  },
+  "2": {
+    "3": {
+      "Time": 40,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 5
+    }
+  },
+  "3": {
+    "5":{
+      "Time":10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 10
+    }
+  },
+  "4": {
+    "3":{
+      "Time":20,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 15
+    },
+    "5": {
+      "Time":60,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 10
+    }
+  },
+  "5":{
+  }
+}

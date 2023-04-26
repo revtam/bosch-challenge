@@ -1,0 +1,476 @@
+{
+  "A1": {
+    "A2": {
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 8
+    },
+    "B1": {
+      "Time":6,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    }
+  },
+  "A2": {
+    "A1": {
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 8
+    },
+    "A3": {
+      "Time":14,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.4,
+      "TrafficJamDelay": 10
+    },
+    "B2": {
+      "Time":4,
+      "TrafficLight":0,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 5
+    }
+  },
+  "A3": {
+    "A2":{
+      "Time":14,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.4,
+      "TrafficJamDelay": 10
+    },
+    "A4":{
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 4
+    },
+    "B3":{
+      "Time":4,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.75,
+      "TrafficJamDelay": 8
+    }
+  },
+  "A4": {
+    "A3":{
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 4
+    },
+    "B4": {
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    }
+  },
+  "B1":{
+    "A1":{
+      "Time":6,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    },
+    "B2":{
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    },
+    "C1": {
+      "Time":11,
+      "TrafficLight":1,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.33,
+      "TrafficJamDelay": 9
+    }
+  },
+  "B2":{
+    "A2":{
+      "Time":4,
+      "TrafficLight":0,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 5
+    },
+    "B1":{
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    },
+    "B3": {
+      "Time":4,
+      "TrafficLight":0,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 5
+    },
+    "C2": {
+      "Time":20,
+      "TrafficLight":0,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 8
+    }
+  },
+  "B3":{
+    "A3":{
+      "Time":4,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.75,
+      "TrafficJamDelay": 8
+    },
+    "B2":{
+      "Time":4,
+      "TrafficLight":0,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 5
+    },
+    "B4": {
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    },
+    "C3": {
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 8
+    }
+  },
+  "B4":{
+    "A4":{
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    },
+    "B3":{
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    },
+    "C4": {
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.125,
+      "TrafficJamDelay": 8
+    }
+  },
+  "C1":{
+    "B1":{
+      "Time":11,
+      "TrafficLight":1,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.33,
+      "TrafficJamDelay": 9
+    },
+    "C2":{
+      "Time":6,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 10
+    },
+    "D1": {
+      "Time":13,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.4,
+      "TrafficJamDelay": 5
+    }
+  },
+  "C2":{
+    "B2":{
+      "Time":20,
+      "TrafficLight":0,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 8
+    },
+    "C1":{
+      "Time":6,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 10
+    },
+    "C3": {
+      "Time":5,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    },
+    "D2": {
+      "Time":20,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 10
+    }
+  },
+  "C3":{
+    "B3":{
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 8
+    },
+    "C2":{
+      "Time":5,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.6,
+      "TrafficJamDelay": 10
+    },
+    "C4": {
+      "Time":2,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 8
+    },
+    "D3": {
+      "Time":8,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.33,
+      "TrafficJamDelay": 9
+    }
+  },
+  "C4":{
+    "B4":{
+      "Time":8,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.125,
+      "TrafficJamDelay": 8
+    },
+    "C3":{
+      "Time":2,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.25,
+      "TrafficJamDelay": 8
+    },
+    "D4": {
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.1,
+      "TrafficJamDelay": 10
+    }
+  },
+  "D1": {
+    "C1": {
+      "Time":13,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.4,
+      "TrafficJamDelay": 5
+    },
+    "D2": {
+      "Time":15,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    },
+    "E1": {
+      "Time":16,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.35,
+      "TrafficJamDelay": 8
+    }
+  },
+  "D2": {
+    "C2": {
+      "Time":20,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 10
+    },
+    "D1": {
+      "Time":15,
+      "TrafficLight":1,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    },
+    "D3": {
+      "Time":9,
+      "TrafficLight":1,
+      "TrafficLightDelay":1,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    },
+    "E2": {
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    }
+  },
+  "D3": {
+    "C3":{
+      "Time":8,
+      "TrafficLight":0,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.33,
+      "TrafficJamDelay": 9
+    },
+    "D2":{
+      "Time":9,
+      "TrafficLight":1,
+      "TrafficLightDelay":1,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    },
+    "D4":{
+      "Time":1,
+      "TrafficLight":0,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.66,
+      "TrafficJamDelay": 3
+    },
+    "E3": {
+      "Time":10,
+      "TrafficLight":0,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    }
+  },
+  "D4": {
+    "C4":{
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.1,
+      "TrafficJamDelay": 10
+    },
+    "D3": {
+      "Time":1,
+      "TrafficLight":0,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.66,
+      "TrafficJamDelay": 3
+    },
+    "E4": {
+      "Time":20,
+      "TrafficLight":1,
+      "TrafficLightDelay":10,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 15
+    }
+  },
+  "E1": {
+    "D1": {
+      "Time":16,
+      "TrafficLight":1,
+      "TrafficLightDelay":4,
+      "TrafficJamChance": 0.35,
+      "TrafficJamDelay": 8
+    },
+    "E2": {
+      "Time":3,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    }
+  },
+  "E2": {
+    "D2": {
+      "Time":7,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 6
+    },
+    "E1": {
+      "Time":3,
+      "TrafficLight":0,
+      "TrafficLightDelay":5,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    },
+    "E3":{
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.1,
+      "TrafficJamDelay": 10
+    }
+  },
+  "E3": {
+    "D3": {
+      "Time":10,
+      "TrafficLight":0,
+      "TrafficLightDelay":6,
+      "TrafficJamChance": 0.2,
+      "TrafficJamDelay": 10
+    },
+    "E2": {
+      "Time":3,
+      "TrafficLight":1,
+      "TrafficLightDelay":3,
+      "TrafficJamChance": 0.1,
+      "TrafficJamDelay": 10
+    },
+    "E4":{
+      "Time":2,
+      "TrafficLight":1,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 4
+    }
+  },
+  "E4": {
+    "D4": {
+      "Time":20,
+      "TrafficLight":1,
+      "TrafficLightDelay":10,
+      "TrafficJamChance": 0.8,
+      "TrafficJamDelay": 15
+    },
+    "E3":{
+      "Time":2,
+      "TrafficLight":1,
+      "TrafficLightDelay":2,
+      "TrafficJamChance": 0.5,
+      "TrafficJamDelay": 4
+    }
+  }
+}
